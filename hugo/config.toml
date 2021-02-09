@@ -1,0 +1,17 @@
+# config.toml
+
+languageCode = "ja"
+theme = "Niello"
+title = "tech blog"
+
+[params]
+  commentoEnable = true
+
+[menu]
+    [[menu.niello]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+    
+    
