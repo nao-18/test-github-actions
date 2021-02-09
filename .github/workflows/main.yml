@@ -25,7 +25,7 @@ jobs:
               uses: actions/upload-artifact@master
               with:
                 name: public
-                path: public
+                path: hugo/public
     deploy:
         name: Deploy
         needs: build
